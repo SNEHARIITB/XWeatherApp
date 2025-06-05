@@ -63,7 +63,7 @@ const WeatherApp = () => {
         Search
       </button>
 
-      {loading && <p style={{ marginTop: '20px' }}>Loading data…</p>}
+      {loading && <p style={{ marginTop: '20px' }}>Loading data...</p>}
 
       {weather && (
         <div className="weather-cards" style={{ marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
